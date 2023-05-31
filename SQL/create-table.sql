@@ -1,0 +1,4 @@
+CREATE TABLE TEST2 (ID INT PRIMARY KEY, A VARCHAR, B VARCHAR, C VARCHAR, D VARCHAR, E VARCHAR);
+INSERT INTO TEST2 (ID, A, C, E) VALUES (1, 'true', 'false', 'true');
+INSERT INTO TEST2 (ID, A, B, C) VALUES (2, 'true', 'true', 'true');
+INSERT INTO TEST2 (ID, C, D, E) VALUES (3, 'false', 'false', 'true');
